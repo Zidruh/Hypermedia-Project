@@ -1,0 +1,179 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    color: #333;
+}
+
+.MainPage {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.Sidebar {
+    background-color: #B5CFFF;
+    width: 30%;
+    padding: 30px 20px;
+}
+
+.Photo {
+  width: 120px;
+  height: 120px;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+}
+
+.Name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Name h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.AuxData {
+    margin-bottom: 25px;
+}
+
+.AuxData p {
+  font-size: 14px; /* text més petit per al contingut */
+  margin: 5px 0;
+}
+
+.AuxData b{
+  font-weight: 600; /* una mica menys gruixut que bold */
+}
+
+.AuxData h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #323B4C;
+    padding-bottom: 5px;
+    color: #323B4C;
+}
+
+.AuxData ul {
+  list-style-type: disc;     /* Mostra punts (•) davant de cada element */
+  margin-left: 20px;         /* Afegeix sagnia a la llista */
+  padding-left: 10px;        /* Espai interior extra per al text */
+}
+
+.AuxData li {
+  margin-bottom: 5px;        /* Espai entre els elements de la llista */
+  font-size: 14px;           /* Pots ajustar la mida del text si vols */
+}
+
+
+/* ---------- ZONA PRINCIPAL ---------- */
+.MainContent {
+    width: 70%;
+    padding: 40px;
+}
+ 
+.MainContent p {
+    font-size: 14px; /* text més petit per al contingut */
+    margin: 5px 0;
+}
+
+.bloc {
+    margin-bottom: 30px;
+}
+
+.bloc h2 {
+    font-size: 1.1em;
+    color: #2f3640;
+    border-bottom: 1px solid #2f3640;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bloc ul {
+  list-style-type: disc;     /* Mostra punts (•) davant de cada element */
+  margin-left: 20px;         /* Afegeix sagnia a la llista */
+  padding-left: 10px;        /* Espai interior extra per al text */
+}
+
+.bloc li {
+  margin-bottom: 5px;        /* Espai entre els elements de la llista */
+  font-size: 14px;           /* Pots ajustar la mida del text si vols */
+}
+
+.JobHeader {
+  display: flex;
+  justify-content: space-between; /* Empresa a l’esquerra, dates a la dreta */
+  align-items: baseline;
+}
+
+.JobHeader h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.JobDate {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.EduItem {
+    margin-bottom: 15px;
+}
+
+.EduHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.EduHeader h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.EduHeader span {
+    font-size: 14px;
+    color: #555;
+}
+
+.EduDate {
+    font-weight: 500;
+    color: #333;
+}
+
+.EduItem p {
+    margin: 3px 0 0 0;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    .cv {
+        flex-direction: column;
+    }
+
+    .sidebar, .main-content {
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+}
