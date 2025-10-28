@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');       /* Import to be able to use the Roboto font thype */
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;    
     background-color: #f0f2f5;
     margin: 0;
     color: #333;
@@ -18,7 +18,7 @@ body {
 }
 
 .Sidebar {
-    background-color: #B5CFFF;
+    background-color: #B5CFFF;  
     width: 30%;
     padding: 30px 20px;
 }
@@ -26,11 +26,11 @@ body {
 .Photo {
   width: 120px;
   height: 120px;
-  background-color: #000;
+  background-color: #000;    
   background-size: cover;
   background-position: center;
   margin: 0 auto 20px auto;
-  border-radius: 50%;
+  border-radius: 50%;        /* Makes the photo a circle */
 }
 
 .Name {
@@ -41,7 +41,7 @@ body {
 .Name h1 {
     font-size: 22px;
     font-weight: bold;
-    color: #333;
+    color: #323B4C;
 }
 
 
@@ -50,12 +50,12 @@ body {
 }
 
 .AuxData p {
-  font-size: 14px; /* text més petit per al contingut */
+  font-size: 14px;     /* Smaller text size for the subsections content */
   margin: 5px 0;
 }
 
 .AuxData b{
-  font-weight: 600; /* una mica menys gruixut que bold */
+  font-weight: 600;
 }
 
 .AuxData h2 {
@@ -67,25 +67,23 @@ body {
 }
 
 .AuxData ul {
-  list-style-type: disc;     /* Mostra punts (•) davant de cada element */
-  margin-left: 20px;         /* Afegeix sagnia a la llista */
-  padding-left: 10px;        /* Espai interior extra per al text */
+  list-style-type: disc;     /* Shows dots at every table element */
+  margin-left: 20px;       /* Table margins size */
+  padding-left: 10px;      
 }
 
 .AuxData li {
-  margin-bottom: 5px;        /* Espai entre els elements de la llista */
-  font-size: 14px;           /* Pots ajustar la mida del text si vols */
+  margin-bottom: 5px;       
+  font-size: 14px;          
 }
 
-
-/* ---------- ZONA PRINCIPAL ---------- */
 .MainContent {
     width: 70%;
     padding: 40px;
 }
  
 .MainContent p {
-    font-size: 14px; /* text més petit per al contingut */
+    font-size: 14px; 
     margin: 5px 0;
 }
 
@@ -104,19 +102,19 @@ body {
 }
 
 .bloc ul {
-  list-style-type: disc;     /* Mostra punts (•) davant de cada element */
-  margin-left: 20px;         /* Afegeix sagnia a la llista */
-  padding-left: 10px;        /* Espai interior extra per al text */
+  list-style-type: disc;     
+  margin-left: 20px;        
+  padding-left: 10px;        
 }
 
 .bloc li {
-  margin-bottom: 5px;        /* Espai entre els elements de la llista */
-  font-size: 14px;           /* Pots ajustar la mida del text si vols */
+  margin-bottom: 5px;      
+  font-size: 14px;          
 }
 
 .JobHeader {
   display: flex;
-  justify-content: space-between; /* Empresa a l’esquerra, dates a la dreta */
+  justify-content: space-between;     /* Aligns the company name in the left and the dates in the right */
   align-items: baseline;
 }
 
@@ -162,20 +160,4 @@ body {
     margin: 3px 0 0 0;
     font-size: 14px;
     color: #333;
-}
-
-
-/* ---------- RESPONSIVE ---------- */
-@media (max-width: 768px) {
-    .cv {
-        flex-direction: column;
-    }
-
-    .sidebar, .main-content {
-        width: 100%;
-    }
-
-    .main-content {
-        padding: 20px;
-    }
 }
