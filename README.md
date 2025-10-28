@@ -13,7 +13,11 @@ I have organized the information of my website in two main sections. The first s
 The right section of the website is where I have put the main information, like my profile, which contains who I am, my work experience, where I have worked, my role there, and the jobs that I had to do there, and some skills acquired there. My education includes what I have studied, when and where, and some extra information which I think is important, like additional titles or if I own a vehicle.
 
 ### Project Analysis, Visual Design
+I have decided to differentiate both sections by colors. I have set the main section background color to white because it is the wider section of the website, and if it had too many colors, it would not look professional. Still in the same section, in the titles, I decided to add a small icon that represents the content of each subsection. Right under the titles, there is a thin line to indicate the beginning of the subsection’s content.
 
+The left section of the page has a very light blue background color to indicate that it is a different section, the color contrast between the two sections helps users quickly identify different types of content. This section uses the same title format as the main section but does not have the small icon. In addition, the content font size is smaller, except for the name. All the text content has the same color — a dark blue — so it matches the left side. For the font type, I decided to use Roboto, which gives the website a modern and professional appearance, while maintaining legibility. Also I decided to use bold text in several parts to highlight the most important content of each subsection.
+
+Overall, my visual design choices aim to create a clean and professional look that helps recruiters easily read and understand the information while keeping the page visually balanced and modern.
 
 
 ### Link to figma project
