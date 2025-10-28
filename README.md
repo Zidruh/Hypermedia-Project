@@ -22,3 +22,6 @@ Overall, my visual design choices aim to create a clean and professional look th
 
 ### Link to figma project
 https://www.figma.com/design/W8rO9CQOGXtRMGE91rBpnV/Hypermedia-Project?t=oGEHLmgOEEOuVN9f-1
+
+### Public link to my page
+https://zidruh.github.io/Hypermedia-Project/
